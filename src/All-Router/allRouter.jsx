@@ -3,7 +3,7 @@ import Homepage from "../pages/homepage";
 const AllRouter=()=>{
     return(
         <Routes>
-    <Route path="/" element={<Homepage/>}/>
+    <Route path="/eldrin" element={<Homepage/>}/>
    </Routes>
     )
 }
