@@ -1,8 +1,8 @@
 import React from 'react'
 import illustration from "../assets/illustration.png"
-import illustration2 from "../assets/2illustration2.png"
-import illustration3 from "../assets/3illustration3.png"
-import illustration4 from "../assets/4illustration4.png"
+import illustration2 from "../assets/illustration2.png"
+import illustration3 from "../assets/illustration3.png"
+import illustration4 from "../assets/illustration4.png"
 const PowerfullAifeature = () => {
   return (
     <section className='w-full  h-full flex-col flex items-center lg:mt-14 md:mt-10 sm:mt-5 mt-5'>
