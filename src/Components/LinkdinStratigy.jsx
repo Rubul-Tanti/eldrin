@@ -1,6 +1,6 @@
 import React from 'react'
 import bg from"../assets/bg.png"
-import contentimg from"../assets/Content.png"
+import content from"../assets/Content.png"
 const LinkdinStratigy = () => {
   return (
     <section className='w-full justify-center  h-full flex-col flex items-center lg:mt-14 md:mt-10 sm:mt-5 mt-5'>
@@ -29,7 +29,7 @@ const LinkdinStratigy = () => {
     </div>
 </div>
 <div className='flex-1/2'>
-<img className='w-full ' src={contentimg}/>
+<img className='w-full ' src={content}/>
 </div>
         </div>
 
