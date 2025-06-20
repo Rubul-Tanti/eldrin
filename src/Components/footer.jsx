@@ -31,7 +31,7 @@ posting your job ad to 10+ job search sites within one tool and with one single 
 </div>
 <div className='flex flex-row text-[#414651] justify-between pt-14 border-t border-gray-200'>
     <p className='text-sm   '>© 2025 Eldrin AI. All rights reserved.</p>
-    <div className='flex flex-row gap-5 text-xs'>
+    <div className='flex flex-row sm:flex-col gap-5 sm:gap-2  text-[0.8rem]'>
         <a>Legal Notice</a>
 <a>Terms Corporate</a>
 <a>Privacy</a>
