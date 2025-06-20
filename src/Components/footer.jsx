@@ -12,26 +12,26 @@ posting your job ad to 10+ job search sites within one tool and with one single 
 <div className='w-full flex max-sm:mt-5 gap-5 flex-row justify-evenly  '>
 
 <div className='flex flex-col '>
-<a className='font-semibold'>Product</a>
-<a>Overview</a>
-<a>Features</a>
-<a>Pricing</a>
+<a className='font-semibold text-[0.8rem]'>Product</a>
+<a className='text-[0.8rem] text-[#414651]'>Overview</a>
+<a className='text-[0.8rem] text-[#414651]'>Features</a>
+<a className='text-[0.8rem] text-[#414651]'>Pricing</a>
 </div>
 <div className='flex flex-col '>
-<a className='font-semibold'>Cmpany</a>
-<a>Blog</a>
-<a>About us</a>
+<a className='font-semibold text-[0.8rem] '>Cmpany</a>
+<a className='text-[0.8rem] text-[#414651]'>Blog</a>
+<a className='text-[0.8rem] text-[#414651]'>About us</a>
 </div>
 <div className='flex flex-col '>
-<a className='font-semibold'>Legal</a>
-<a>Terms</a>
-<a>Privacy Policy</a>
+<a className='font-semibold text-xs'>Legal</a>
+<a className='text-[0.8rem] text-[#414651]'>Terms</a>
+<a className='text-[0.8rem] text-[#414651]'>Privacy Policy</a>
 </div>
 </div>
 </div>
 <div className='flex flex-row text-[#414651] justify-between pt-14 border-t border-gray-200'>
     <p className='text-sm   '>© 2025 Eldrin AI. All rights reserved.</p>
-    <div className='flex flex-row gap-5 text-sm'>
+    <div className='flex flex-row gap-5 text-xs'>
         <a>Legal Notice</a>
 <a>Terms Corporate</a>
 <a>Privacy</a>

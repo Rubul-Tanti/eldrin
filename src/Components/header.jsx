@@ -12,8 +12,8 @@ return(
     <img alt="Eldrin Ai" src={Eldrinai} className="w-[168.94px] h-[33.32px] py-[1.32px] px-[11.88px]"/>
     <div className="flex flex-row gap-10 ">
     <nav className="flex flex-row gap-[13.91px] text-[#6156D3] h-[52.72px] items-center justify-around">
-<span className="flex-row cursor-pointer flex">Products<RiArrowDropDownLine size={20}/> </span>
-<span className="flex-row cursor-pointer flex">Pricing <RiArrowDropDownLine size={20}/></span>
+<span className="flex-row cursor-pointer md:flex sm:hidden hidden lg:flex">Products<RiArrowDropDownLine size={20}/> </span>
+<span className="flex-row cursor-pointer md:flex sm:hidden hidden lg:flex">Pricing <RiArrowDropDownLine size={20}/></span>
 <Link>
 <span className="lg:block md:block sm:hidden hidden max-md:hidden">
 company
@@ -37,9 +37,14 @@ Login
 :<button className="flex-row cursor-pointer lg:hidden md:hidden sm:block block max-sm:block   max-md:hidden relative mr-10" onClick={()=>{setHamOn(false)}}><RxCross1 size={25}/></button>}
     </div>
 
-        <div className={` overflow-hidden ${hamOn?"h-[200px]":"h-0"} w-[150px    ] top-[100%]  duration-200 ease-in right-0 transition-all bg-white rounded-lg absolute`}>
-  <div className="sm:flex flex-col gap-[17.55px] pt-5 hidden items-center h-[52.73px] ">
-    <Link>
+        <div className={` overflow-hidden ${hamOn?"h-[250px]":"h-0"} w-[150px] top-[100%]  duration-200 ease-in right-0 transition-all bg-white rounded-lg absolute`}>
+  <div className="sm:flex flex-col gap-[17.55px] pt-5 flex items-center h-[52.73px] ">
+  <span className="flex-row text-[#6156D3] cursor-pointer flex">Products<RiArrowDropDownLine size={20}/> </span>
+<span className="flex-row text-[#6156D3] cursor-pointer flex">Pricing <RiArrowDropDownLine size={20}/></span>
+  
+  <span className=" text-[#6156D3] ">
+company
+</span>  <Link>
     <span className="text-[#6156D3] ">
 Login        
     </span>
@@ -49,9 +54,7 @@ Login
         Open Account
     </span>
 </Link>
-     <span className=" text-[#6156D3] ">
-company
-</span>
+     
     </div>
    
     </div>
